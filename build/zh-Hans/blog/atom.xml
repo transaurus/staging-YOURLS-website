@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yourls.org/zh-Hans/blog</id>
+    <title>YOURLS Blog</title>
+    <updated>2026-01-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yourls.org/zh-Hans/blog"/>
+    <subtitle>YOURLS Blog</subtitle>
+    <icon>https://yourls.org/zh-Hans/assets/images/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.10.3]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2026/01/11/yourls-1-10-3</id>
+        <link href="https://yourls.org/zh-Hans/blog/2026/01/11/yourls-1-10-3"/>
+        <updated>2026-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've just released YOURLS 1.10.3!]]></summary>
+        <content type="html"><![CDATA[<p>We've just released <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.10.3" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.10.3</a>!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2026/01/11/yourls-1-10-3#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Admin area bug fixes, accessibility improvements, and more!</p>
+<ul>
+<li class="">Public statistics pages hide referrers</li>
+<li class="">The list of shorturls has been improved for screen-reader users</li>
+<li class="">Searches are faster when filtering by long URLs</li>
+<li class="">Filtering for "more than 0 clicks" is fixed</li>
+<li class="">Automated tests now run on PHP 8.5 &amp; 8.6</li>
+</ul>
+<p>We're especially grateful to @<a href="https://github.com/lilmike" target="_blank" rel="noopener noreferrer" class="">lilmike</a> for not only flagging accessibility, but also helping develop and test patches to make the admin panel better for low-vision users.
+To us, this is a perfect example of why open-source rocks!</p>
+<p>Finally, all core code using the database now passes a "context" value indicating whether it is performing a "read" or "write" operation.
+Most users won't need to worry about this, but high-availability plugin developers will be able to more intelligently route requests.</p>
+<p>These are just the highlights; see <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.10.3" target="_blank" rel="noopener noreferrer" class="">the release page</a> or our full <a href="https://github.com/YOURLS/YOURLS/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">CHANGELOG</a> for more details.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2026/01/11/yourls-1-10-3#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>It's the typical case of "upload files over older ones and forget", which as always doesn't affect your plugins and user config.</p>
+<p>As always, if it's been a while since your last DB backup, we suggest you do that <strong>before</strong> updating, since the new version will ask your database to change some stuff.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spread-the-word">Spread the word!<a href="https://yourls.org/zh-Hans/blog/2026/01/11/yourls-1-10-3#spread-the-word" class="hash-link" aria-label="Direct link to Spread the word!" title="Direct link to Spread the word!" translate="no">​</a></h2>
+<p>Help us make YOURLS bigger!
+You can do your part with tweeting about this release to let your friends know about it, and with <a href="https://github.com/YOURLS/YOURLS" target="_blank" rel="noopener noreferrer" class="">giving us a star on GitHub</a> 😉
+Thank you all!</p>]]></content>
+        <author>
+            <name>dgw</name>
+            <uri>https://github.com/dgw</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.10.2]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2025/07/31/yourls-1-10-2</id>
+        <link href="https://yourls.org/zh-Hans/blog/2025/07/31/yourls-1-10-2"/>
+        <updated>2025-07-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've just released YOURLS 1.10.2!]]></summary>
+        <content type="html"><![CDATA[<p>We've just released <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.10.2" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.10.2</a>!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2025/07/31/yourls-1-10-2#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Another set of minor bug fixes, the most important one being on the YOURLS container image.
+The container with Apache HTTP now listens on ports 8080 and 8443.
+You'll find the detailed changelog on the release page.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2025/07/31/yourls-1-10-2#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>This release doesn't alter the database, it's the typical case of "upload files over older ones and forget", which as always doesn't affect your plugins and user config.
+And as always, if it's been a long time since your last DB backup, now would be a good time of course.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spread-the-word">Spread the word!<a href="https://yourls.org/zh-Hans/blog/2025/07/31/yourls-1-10-2#spread-the-word" class="hash-link" aria-label="Direct link to Spread the word!" title="Direct link to Spread the word!" translate="no">​</a></h2>
+<p>Help us make YOURLS bigger!
+You can do your part with tweeting about this release to let your friends know about it, and with <a href="https://github.com/YOURLS/YOURLS" target="_blank" rel="noopener noreferrer" class="">giving us a star on GitHub</a> 😉
+Thank you all!</p>]]></content>
+        <author>
+            <name>Léo Colombaro</name>
+            <uri>https://github.com/LeoColomb</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.10.1]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-1</id>
+        <link href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-1"/>
+        <updated>2025-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've just released YOURLS 1.10.1!]]></summary>
+        <content type="html"><![CDATA[<p>We've just released <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.10.1" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.10.1</a>!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-1#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Minor bug fixes, the most important one being an error occurring when trying to deactivate a plugin. You'll find the detailed changelog on the release page.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-1#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>This release doesn't alter the database, it's the typical case of "upload files over older ones and forget", which as always doesn't affect your plugins and user config. And as always, if it's been a long time since your last DB backup, now would be a good time of course.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spread-the-word">Spread the word!<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-1#spread-the-word" class="hash-link" aria-label="Direct link to Spread the word!" title="Direct link to Spread the word!" translate="no">​</a></h2>
+<p>Help us make YOURLS bigger! You can do your part with tweeting about this release to let your friends know about it, and with <a href="https://github.com/YOURLS/YOURLS" target="_blank" rel="noopener noreferrer" class="">giving us a star on GitHub</a> 😉 Thank you all!</p>]]></content>
+        <author>
+            <name>dgw</name>
+            <uri>https://github.com/dgw</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.10 "Tati" released]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-tati-released</id>
+        <link href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-tati-released"/>
+        <updated>2025-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone, we're excited to announce the release of YOURLS 1.10 \\o/]]></summary>
+        <content type="html"><![CDATA[<p>Hello everyone, we're excited to announce the release of <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.10.0" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.10</a> \o/</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="salute-to-tatiana--tati--shmayluk-m">Salute to Tatiana « Tati » Shmayluk \m/<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-tati-released#salute-to-tatiana--tati--shmayluk-m" class="hash-link" aria-label="Direct link to Salute to Tatiana « Tati » Shmayluk \m/" title="Direct link to Salute to Tatiana « Tati » Shmayluk \m/" translate="no">​</a></h2>
+<p>In our tradition to name a new release after a metal vocalist, we're dedicating 1.10 to Tatiana "Tati" Shmayluk, frontwoman of Ukrainian heavy metal band <a href="http://jinjer-metal.com/" target="_blank" rel="noopener noreferrer" class="">Jinjer</a>. I'm in awe of her ability to scream her throat out almost every night on tour, and her courage to face anxiety off-stage without the help of alcohol (two years sober!). If you haven't listened to Jinjer before, why not start with the badass title track from their new album, <a href="https://www.youtube.com/watch?v=hEt3MajR0cU" target="_blank" rel="noopener noreferrer" class="">"Duél"</a>? 🤘</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/Tatiana-61bd29398f574eda4490f67b56cda14e.jpg" width="1246" height="460" class="img_ev3q"></p>
+<blockquote>
+<p>Tatiana Shmayluk of Jinjer - <a href="https://commons.wikimedia.org/wiki/File:20190802_Wacken_Wacken-Open-Air_Jinjer_0306.jpg" target="_blank" rel="noopener noreferrer" class="">photo</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer" class="">CC BY-SA 4.0</a>) by <a href="https://commons.wikimedia.org/wiki/User:MarkusFelix" target="_blank" rel="noopener noreferrer" class="">Markus Felix</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new-this-time">What's new this time?<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-tati-released#whats-new-this-time" class="hash-link" aria-label="Direct link to What's new this time?" title="Direct link to What's new this time?" translate="no">​</a></h2>
+<p>YOURLS 1.10 is a big jump for future compatibility. Most of the work that went into this release was on making sure PHP 8.4 and MySQL 8+ will work. Of course, there are also bug fixes: to the login page, searching your shorturls, and API return codes.</p>
+<p>Note that YOURLS now requires <strong>PHP 8.1</strong> as a minimum. We also run tests on every version up to and including PHP 8.4.</p>
+<p>Those interested will find more boring details in the <a href="https://github.com/YOURLS/YOURLS/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">CHANGELOG</a> as usual.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="even-more-documentation-improvements">Even more documentation improvements<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-tati-released#even-more-documentation-improvements" class="hash-link" aria-label="Direct link to Even more documentation improvements" title="Direct link to Even more documentation improvements" translate="no">​</a></h3>
+<p>We took our VuePress docs and made them even better. The documentation now lives inside YOURLS' main website at <a href="https://yourls.org/docs" target="_blank" rel="noopener noreferrer" class="">yourls.org/docs</a>, putting everything together for us to keep updated more easily. Switching to Docusaurus 2 helped with that <strong>AND</strong> kept both of the main points for users:</p>
+<ul>
+<li class="">
+<p>The whole website is fully searchable with as-you-type page &amp; section suggestions</p>
+</li>
+<li class="">
+<p>There's still an "Edit this page" link to quickly propose fixes to <a href="https://github.com/YOURLS/website" target="_blank" rel="noopener noreferrer" class="">YOURLS/website</a>.</p>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wrapping-it-up">Wrapping it up<a href="https://yourls.org/zh-Hans/blog/2025/04/yourls-1-10-tati-released#wrapping-it-up" class="hash-link" aria-label="Direct link to Wrapping it up" title="Direct link to Wrapping it up" translate="no">​</a></h2>
+<p>Over the years YOURLS has been consistently in the <a href="https://github.com/ozh/top_100_PHP_projects" target="_blank" rel="noopener noreferrer" class="">Top 100 PHP projects on GitHub</a> and we are really humbled and honoured. From the bottom of our hearts, we're sending a warm thank you to every people using YOURLS in small personal projects or large corporate environment, to people writing plugins and providing materials that make a <a href="https://github.com/YOURLS/awesome-yourls" target="_blank" rel="noopener noreferrer" class="">vivid ecosystem</a>, to people <a href="https://yourls.org/sponsor" target="_blank" rel="noopener noreferrer" class="">financially supporting</a> the project, and to everyone telling the world about it!</p>
+<p>Now it's time to do your part!</p>
+<ul>
+<li class=""><a href="https://github.com/YOURLS/YOURLS/releases" target="_blank" rel="noopener noreferrer" class="">Update YOURLS</a>! As usual, this would make a nice occasion for a little backup 😉</li>
+<li class="">Tweet about this release, make friends know about it and entice them to update</li>
+<li class="">Star us on GitHub if you haven't already 😉</li>
+<li class="">Plugin author? <a href="https://github.com/YOURLS/YOURLS-test-suite-for-plugins/" target="_blank" rel="noopener noreferrer" class="">Write some tests</a>!</li>
+<li class="">Translation maintainer? <a href="https://github.com/YOURLS/YOURLS.pot" target="_blank" rel="noopener noreferrer" class="">Update your translation</a>!</li>
+</ul>
+<p>Peace to you, and Слава Україні! 🇺🇦</p>]]></content>
+        <author>
+            <name>dgw</name>
+            <uri>https://github.com/dgw</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.9.2]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2023/02/27/yourls-1-9-2</id>
+        <link href="https://yourls.org/zh-Hans/blog/2023/02/27/yourls-1-9-2"/>
+        <updated>2023-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We're pleased to announce the release of YOURLS 1.9.2!]]></summary>
+        <content type="html"><![CDATA[<p>We're pleased to announce the release of <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.9.2" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.9.2</a>!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2023/02/27/yourls-1-9-2#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Some new features, improvements, and bug fixes that make YOURLS even better than before, obviously 🙂</p>
+<p>Most importantly, YOURLS 1.9.2 now supports <strong>PHP 8.2</strong>, which means you can take advantage of the most recent enhancements in PHP.</p>
+<p>We've fixed several bugs that could cause issues with your YOURLS installation, including problems with bookmarklets, unwanted cookies, and various cosmetic issues in the admin interface.</p>
+<p>You will find the full list of changes in the <a href="https://github.com/YOURLS/YOURLS/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">CHANGELOG</a>.</p>
+<p>For this release, I would like to thank all the contributors who helped make YOURLS better: @barryhughes, @nexxai, @SXN31, @jarebear6expepjozn6rakjq5iczi3irqwphcvb, @4BRobby, along with the usual crew @ozh, @LeoColomb and @dgw.</p>
+<h1>More goodness: the website</h1>
+<p>The <a href="https://yourls.org/" target="_blank" rel="noopener noreferrer" class="">YOURLS website</a> has been completely redesigned. Under the same domain you'll find introductory pages as before, the <a href="https://yourls.org/docs" target="_blank" rel="noopener noreferrer" class="">documentation</a>, and the <a href="https://yourls.org/blog" target="_blank" rel="noopener noreferrer" class="">blog</a>—all powered by a static site generator using simple markdown files hosted on Github (<a href="https://github.com/YOURLS/website" target="_blank" rel="noopener noreferrer" class="">YOURLS/website</a>).</p>
+<p>Benefits: faster page loads, extensive search feature, and everyone can contribute with a simple pull request!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update-to-yourls-192">How to update to YOURLS 1.9.2?<a href="https://yourls.org/zh-Hans/blog/2023/02/27/yourls-1-9-2#how-to-update-to-yourls-192" class="hash-link" aria-label="Direct link to How to update to YOURLS 1.9.2?" title="Direct link to How to update to YOURLS 1.9.2?" translate="no">​</a></h2>
+<p>Once again, it's your typical case of "upload files over older ones and forget", and as always it won't affect your plugins or user config.</p>
+<p>And as always, if it's been a long time since your last DB backup, now would be a good time to do it 😉</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spread-the-word">Spread the word!<a href="https://yourls.org/zh-Hans/blog/2023/02/27/yourls-1-9-2#spread-the-word" class="hash-link" aria-label="Direct link to Spread the word!" title="Direct link to Spread the word!" translate="no">​</a></h2>
+<p>We're celebrating the release of YOURLS 1.9.2 with our <strong>9000th star</strong> on GitHub and our <strong>2000th commit</strong>!</p>
+<p>Help us make YOURLS bigger! You can do your part with tweeting about this release to let your friends know about it, and with <a href="https://github.com/YOURLS/YOURLS" target="_blank" rel="noopener noreferrer" class="">giving us a star on GitHub</a> 😉</p>
+<p>Thank you for your continued support of YOURLS, and we hope you enjoy the latest version!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.9.1]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2022/05/yourls-1-9-1</id>
+        <link href="https://yourls.org/zh-Hans/blog/2022/05/yourls-1-9-1"/>
+        <updated>2022-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've just released YOURLS 1.9.1!]]></summary>
+        <content type="html"><![CDATA[<p>We've just released <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.9.1" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.9.1</a>!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2022/05/yourls-1-9-1#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Mostly minor bug fixes, the most important one being an error occurring when someone would update from a long version ago. People who update their YOURLS instances when there is a new version were not affected by this bug, I'll let you decide if there is a lesson here 😉 You'll find the detailed changelog on the release page.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2022/05/yourls-1-9-1#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>This release doesn't alter the database, it's the typical case of "upload files over older ones and forget", which as always doesn't affect your plugins and user config. And as always, if it's been a long time since your last DB backup, now would be a good time of course.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spread-the-word">Spread the word!<a href="https://yourls.org/zh-Hans/blog/2022/05/yourls-1-9-1#spread-the-word" class="hash-link" aria-label="Direct link to Spread the word!" title="Direct link to Spread the word!" translate="no">​</a></h2>
+<p>Help us make YOURLS bigger! You can do your part with tweeting about this release to let your friends know about it, and with <a href="https://github.com/YOURLS/YOURLS" target="_blank" rel="noopener noreferrer" class="">giving us a star on GitHub</a> 😉 Thank you all!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.9 "Nergal" released]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released</id>
+        <link href="https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released"/>
+        <updated>2022-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello everyone, I'm very excited to announce the release of YOURLS 1.9 \\o/]]></summary>
+        <content type="html"><![CDATA[<p>Hello everyone, I'm very excited to announce the release of <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.9" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.9</a> \o/</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="hail-adam--nergal--darski-m">Hail Adam « Nergal » Darski \m/<a href="https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released#hail-adam--nergal--darski-m" class="hash-link" aria-label="Direct link to Hail Adam « Nergal » Darski \m/" title="Direct link to Hail Adam « Nergal » Darski \m/" translate="no">​</a></h2>
+<p>In our tradition to name a new release after a metal vocalist, I'm dedicating 1.9 to Nergal, front man of Polish heavyweight extreme band <a href="https://www.behemoth.pl/" target="_blank" rel="noopener noreferrer" class="">Behemoth</a>. Known for his magnetic charisma, insane energy and being a cancer survivor, Nergal also supports several worthy projects fighting censorship and promoting freedom of thought. I completely worship the man and suggest you relax to the sound of one of their <a href="https://www.youtube.com/watch?v=HKWqzjQAv14" target="_blank" rel="noopener noreferrer" class="">sweetest delicacies</a> 🙂</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/Nergal-668fc81f85dc1000df781cb4b6946133.png" width="914" height="577" class="img_ev3q"></p>
+<blockquote>
+<p>Behemoth's Nergal - photo by <a href="https://www.flickr.com/photos/peroleh/" target="_blank" rel="noopener noreferrer" class="">Per Ole Hagen</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-so-excited">Why so excited?<a href="https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released#why-so-excited" class="hash-link" aria-label="Direct link to Why so excited?" title="Direct link to Why so excited?" translate="no">​</a></h2>
+<p>A lot of work went into that release and it's more than just <em>yet-another-release</em>. On the YOURLS core front, we have improved and fixed and worked on several things, such as:</p>
+<ul>
+<li class="">A true foolproof plugin sandbox: if a plugin you activate is PHP garbage with broken code, it won't break your whole install. Peace of mind! Also, there is now a proper (optional) uninstall procedure for plugins, see for instance the official <a href="https://github.com/YOURLS/plugin-sample" target="_blank" rel="noopener noreferrer" class="">sample plugin</a>. We have other exciting news about plugins, more on this later.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/Screenshot-5645b5c692931b996c1e24b1cca39dcd.png" width="1019" height="322" class="img_ev3q"></p>
+<blockquote>
+<p>Broken plugin != broken YOURLS</p>
+</blockquote>
+<ul>
+<li class="">Improved security (mostly to prevent people from hacking themselves in creative ways, not gonna lie)</li>
+<li class="">Less annoying bugs, such as: there were sometimes irritating notices or unresponsive interface in particular cases when shortening or editing a URL; we now deal a lot better with concurrency requests when mass shortening URLs.</li>
+<li class="">Hardened test cases for better continuous integration, and implement smarter workflows in the repository.
+For instance, the GeoIP database is now regularly and automatically updated in GitHub. While that doesn't change much for users between releases, this really makes our maintainer life easier.
+(On this topic and for you users, I recently made a <a href="https://github.com/ozh/yourls-geoip-update" target="_blank" rel="noopener noreferrer" class="">GeoIP Update plugin</a>, to easily update your GeoIP database if there has been no new YOURLS release in a while)</li>
+</ul>
+<p>Note that YOURLS now requires <strong>PHP 7.4</strong> as a minimum, and is of course fully tested for PHP 8.0 and 8.1.</p>
+<p>Those interested will find more boring details in the <a href="https://github.com/YOURLS/YOURLS/blob/master/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="">CHANGELOG</a> as usual.</p>
+<p>I mentioned earlier "on the YOURLS core front": what else would there be on other fronts?</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sweet-documentation-now-on-docsyourlsorg">Sweet documentation now on docs.yourls.org<a href="https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released#sweet-documentation-now-on-docsyourlsorg" class="hash-link" aria-label="Direct link to Sweet documentation now on docs.yourls.org" title="Direct link to Sweet documentation now on docs.yourls.org" translate="no">​</a></h2>
+<p>The whole YOURLS documentation now lives at <a href="https://docs.yourls.org/" target="_blank" rel="noopener noreferrer" class="">docs.yourls.org</a> and boy this is neat. Powered by modern and lightning fast Vuepress, this documentation has two nice benefits for users:</p>
+<ul>
+<li class="">it's fully and efficiently searchable: the search box on the top right provides real time and accurate results about whatever you may be looking for:</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/Docs-b17a101ca6607baaa975d67a389f2c97.png" width="846" height="517" class="img_ev3q"></p>
+<ul>
+<li class="">It's now easier than ever to propose enhancement for the documentation. Notice a typo? Want to suggest a better rewording, or even cover a whole new important topic we've overlooked? Simply click on "Edit this page" and file a regular pull request on <a href="https://github.com/YOURLS/docs" target="_blank" rel="noopener noreferrer" class="">YOURLS/docs</a>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="plugin-test-suite">Plugin test suite!<a href="https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released#plugin-test-suite" class="hash-link" aria-label="Direct link to Plugin test suite!" title="Direct link to Plugin test suite!" translate="no">​</a></h2>
+<p>This one is for plugin authors: we have released a convenient <a href="https://github.com/YOURLS/YOURLS-test-suite-for-plugins" target="_blank" rel="noopener noreferrer" class="">Test Suite tool for plugins</a>, to make it easier to write and run unit tests for your plugins in a real YOURLS environment.</p>
+<p>This is truly a new dawn for YOURLS plugin coders. The typical YOURLS plugin is a simple file with a couple filters and actions performing a simple task, and it's tempting to just forget about it. The <a href="https://github.com/YOURLS/YOURLS-test-suite-for-plugins" target="_blank" rel="noopener noreferrer" class="">Test suite for plugins</a> makes it easier to write tests, forget about your plugin AND be noticed if, for instance, a future YOURLS release breaks something!</p>
+<p>Plugin authors: go ahead, play with the test suite, write some tests and earn the "test icon" 🧪 in the <a href="https://github.com/YOURLS/awesome-yourls" target="_blank" rel="noopener noreferrer" class="">Awesome YOURLS</a> list! Feel free to ping Ozh if you need some guidance to get started.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wrapping-it-up">Wrapping it up<a href="https://yourls.org/zh-Hans/blog/2022/04/yourls-1-9-nergal-released#wrapping-it-up" class="hash-link" aria-label="Direct link to Wrapping it up" title="Direct link to Wrapping it up" translate="no">​</a></h2>
+<p><a href="https://github.com/YOURLS/YOURLS/releases/tag/1.9" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.9 is out</a>, right in time to celebrate our <strong>8000th star</strong> on GitHub.</p>
+<p>Over the years YOURLS has been consistently in the <a href="https://github.com/ozh/top_100_PHP_projects" target="_blank" rel="noopener noreferrer" class="">Top 100 PHP projects on GitHub</a> and we are really humbled and honoured. From the bottom of our hearts, we're sending a warm thank you to every people using YOURLS in small personal projects or large corporate environment, to people writing plugins and providing materials that make a <a href="https://github.com/YOURLS/awesome-yourls" target="_blank" rel="noopener noreferrer" class="">vivid ecosystem</a>, to people <a href="https://docs.yourls.org/sponsor.html" target="_blank" rel="noopener noreferrer" class="">financially supporting</a> the project, and to everyone telling the world about it!</p>
+<p>Now it's time to do your part!</p>
+<ul>
+<li class=""><a href="https://github.com/YOURLS/YOURLS/releases" target="_blank" rel="noopener noreferrer" class="">Update YOURLS</a>! As usual, this would make a nice occasion for a little backup 😉</li>
+<li class="">Tweet about this release, make friends know about it and entice them to update</li>
+<li class="">Star us on GitHub if you haven't already 😉</li>
+<li class="">Plugin author? <a href="https://github.com/YOURLS/YOURLS-test-suite-for-plugins/" target="_blank" rel="noopener noreferrer" class="">Write some tests</a>!</li>
+<li class="">Translation maintainer? <a href="https://github.com/YOURLS/YOURLS.pot" target="_blank" rel="noopener noreferrer" class="">Update your translation</a>!</li>
+</ul>
+<p>Peace on you!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.8.2]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2021/09/yourls-1-8-2</id>
+        <link href="https://yourls.org/zh-Hans/blog/2021/09/yourls-1-8-2"/>
+        <updated>2021-09-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[YOURLS 1.8.2 is available and waiting for you.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://github.com/YOURLS/YOURLS/releases/tag/1.8.2" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.8.2</a> is available and waiting for you.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2021/09/yourls-1-8-2#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>This version brings a few fixes and improvements that were implemented during the past 6 months: a few cosmetic issues with IE 11 and Docker, better handling of SSL proxies, various hooks and inline documentation that will make developers job easier. The most noticeable - yet invisible - changes would be two minor security issues with XSS and iframe jacking (yes, I know it sounds suspicious to call security issues "minor" but this is really what they were 🙂. Gory details in the changelog for those interested.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2021/09/yourls-1-8-2#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>This version doesn't alter the database, so updating should be an instant "download, overwrite your existing files and forget" job. This won't affect user config and plugins, as usual. And as always, we have to recommend that you backup your DB from time to time, and updating seems like a good opportunity to do so.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spread-the-word">Spread the word!<a href="https://yourls.org/zh-Hans/blog/2021/09/yourls-1-8-2#spread-the-word" class="hash-link" aria-label="Direct link to Spread the word!" title="Direct link to Spread the word!" translate="no">​</a></h2>
+<p>YOURLS exists and thrives because of people using it and telling their friends how much they enjoy it. Have you starred <a href="https://github.com/YOURLS/YOURLS" target="_blank" rel="noopener noreferrer" class="">the project on GitHub</a>? And thank you all for tweeting and youtubing and whatnotting about this release 🙂</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.8.1]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2021/03/yourls-1-8-1</id>
+        <link href="https://yourls.org/zh-Hans/blog/2021/03/yourls-1-8-1"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[YOURLS 1.8.1 is available to the world.]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://github.com/YOURLS/YOURLS/releases/tag/1.8.1" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.8.1</a> is available to the world.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2021/03/yourls-1-8-1#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>This "patch release" fixes the update procedure for folks running MySQL and having table names with dashes (eg <code>joe-yourls-options</code> ... Jeez, gentlemen, underscores ftw!).</p>
+<p>It also fixes the way YOURLS determines if a page should be publicly available or not, on private installs, for instance to have private YOURLS instances where one must log to enter the admin area but where the API or stat pages are viewable by anyone.</p>
+<p>While I was at it, I added an interesting new hook for actions and filters: the "all" hook, to be able to attach every single action and filter that YOURLS triggers to the same function. Debugging level 9000. See the docs page <a href="https://docs.yourls.org/guide/troubleshooting/first-steps.html" target="_blank" rel="noopener noreferrer" class="">Debugging YOURLS</a> to learn how to use this powerful hook.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2021/03/yourls-1-8-1#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>Simply download the new release and overwrite your files. As usual this won't affect user defined files, such as plugins, config or languages. And as usual, even if this quick update doesn't change anything in the DB, when was the last time you made a backup? 🙂</p>
+<p>Spread the word, and take care!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.8 "Mike Muir"]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2021/02/yourls-1-8-mike-muir-released</id>
+        <link href="https://yourls.org/zh-Hans/blog/2021/02/yourls-1-8-mike-muir-released"/>
+        <updated>2021-02-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It is with great pleasure and excitement that I announce the release of YOURLS 1.8 "Mike Muir"!]]></summary>
+        <content type="html"><![CDATA[<p>It is with great pleasure and excitement that I announce the release of <a href="https://github.com/YOURLS/YOURLS/releases/1.8" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.8 "Mike Muir"</a>!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="hail-mike-muir-️">Hail Mike Muir 🤘❤️<a href="https://yourls.org/zh-Hans/blog/2021/02/yourls-1-8-mike-muir-released#hail-mike-muir-%EF%B8%8F" class="hash-link" aria-label="Direct link to Hail Mike Muir 🤘❤️" title="Direct link to Hail Mike Muir 🤘❤️" translate="no">​</a></h2>
+<p>First things first, in our now secular tradition to name YOURLS releases after a infamous metal vocalist, I'm dedicating this release to <strong>Mike Muir</strong>, cyco frontman from the sublime thrash punk band we all mosh to, Suicidal Tendencies. Damn I love this man. I suggest you tune in <a href="https://www.youtube.com/watch?v=nxcJW6bs5os" target="_blank" rel="noopener noreferrer" class="">some relaxing music</a> while reading the rest of this post and updating YOURLS.</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/Mike_Muir-8c71eed247b174108bffa30334360ded.jpg" width="1023" height="682" class="img_ev3q"></p>
+<blockquote>
+<p><a href="https://www.flickr.com/photos/orgasmatron/39438972072/" target="_blank" rel="noopener noreferrer" class="">Mike Muir</a>, photo by my concert pal Ronan Thenadey. Best concert photograph ever, seriously.</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="so-yourls-18">So, YOURLS 1.8?<a href="https://yourls.org/zh-Hans/blog/2021/02/yourls-1-8-mike-muir-released#so-yourls-18" class="hash-link" aria-label="Direct link to So, YOURLS 1.8?" title="Direct link to So, YOURLS 1.8?" translate="no">​</a></h2>
+<p>Yes, YOURLS 1.8 and a lot of reasons for you to update. Let's list the major ones:</p>
+<ul>
+<li class="">Much, much, very much <strong>better support for UTF8</strong> and ᵮưȵƙƴ letters. The long running issue of "page title is weirdly encoded" should be a thing of the past, no matter the charset, the encoding or the alphabet used on the URL you'll shorten. YOURLS also now fully support being installed on IDN domains out of the box, without the use of a plugin as it did before.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/Screenshot-80326b74694e246a5b88c91a94d6e06a.png" width="496" height="308" class="img_ev3q"></p>
+<p>Take that, IDN and stuff</p>
+<ul>
+<li class=""><strong>PHP compatibility</strong>: YOURLS 1.8 is of course compatible with <strong>PHP 8</strong>. We're also dropping support for older PHP versions and are now advocating that you use at least <strong>7.4</strong>. Although 7.2 is still supported we will probably make less efforts in the future than we did in the past to maintain compatibility with deprecated PHP.</li>
+<li class=""><strong>Time and timezone management</strong>: till now, YOURLS was a happy mess of timezone "sort of" support. Now more! While the core code has been streamlined and simplified to only use UTC, we have also developed a neat <a href="https://github.com/YOURLS/timezones" target="_blank" rel="noopener noreferrer" class="">timezones plugin</a> to properly manage timezones and how date &amp; time are displayed on your install.</li>
+<li class="">Slightly updated <strong>UI and logo</strong>, all in SVG light and scalable goodness.</li>
+<li class="">And of course several <strong>bug fixes and improvements</strong> under the hood - check the commit log if you are interested.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="awesome-yourls-is-more-awesome-now">"Awesome YOURLS" is more awesome now<a href="https://yourls.org/zh-Hans/blog/2021/02/yourls-1-8-mike-muir-released#awesome-yourls-is-more-awesome-now" class="hash-link" aria-label="Direct link to &quot;Awesome YOURLS&quot; is more awesome now" title="Direct link to &quot;Awesome YOURLS&quot; is more awesome now" translate="no">​</a></h2>
+<p><a href="https://github.com/YOURLS/awesome-yourls" target="_blank" rel="noopener noreferrer" class="">Awesome YOURLS</a> is the curated list of, well, awesome things about YOURLS: plugins, translations, themes, install guides, tutorials, tools, packages for various platforms, applications and programming languages. It's a truly amazing resource list.</p>
+<p>The list has been improved lately: more content, more readable. More awesomeness. Be sure to check it, star it on GitHub and have your work featured there!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="update-and-tell-friends-to-update">Update and tell friends to update!<a href="https://yourls.org/zh-Hans/blog/2021/02/yourls-1-8-mike-muir-released#update-and-tell-friends-to-update" class="hash-link" aria-label="Direct link to Update and tell friends to update!" title="Direct link to Update and tell friends to update!" translate="no">​</a></h2>
+<p>As always, we advise you to update as soon as you can. And as always, we advise you to backup your DB before doing so, because, you know why.</p>
+<p>And, as always, we're counting on you: spread the word about this new release, share the news on Twitter, on your Facebook wall, on wherever you virtually exist and let your friends know about this.</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.7.9]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2020/04/yourls-1-7-9</id>
+        <link href="https://yourls.org/zh-Hans/blog/2020/04/yourls-1-7-9"/>
+        <updated>2020-04-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[YOURLS update: the latest release is now 1.7.9 and you will find it, as usual and only, on YOURLS release page on GitHub.]]></summary>
+        <content type="html"><![CDATA[<p>YOURLS update: the latest release is now <strong>1.7.9</strong> and you will find it, as usual and only, on <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.9" target="_blank" rel="noopener noreferrer" class="">YOURLS release page</a> on GitHub.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2020/04/yourls-1-7-9#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>This release could have been nicknamed "the Quarantine Edition" since, because or thanks to the corona-lockdown (day 35 and counting) I've had quite some time to fix things and improve stuff, as you'll see on the release page.</p>
+<p>Truth be told, I'm also pushing this release as a <strong>security update</strong>. Last night, the DJ didn't save my life, but the server hosting <a href="https://api.yourls.org/" target="_blank" rel="noopener noreferrer" class="">api.yourls.org</a> was compromised. As a result, you may have seen a message in your YOURLS admin interface advertising a 1.7.8 release with an unusual download link. This was quickly noticed and fixed but a couple hundreds people still downloaded the fake archive, so I'm pushing a newer one for everyone.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2020/04/yourls-1-7-9#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>Update as usual: download files and overwrite all existing files on your server (your personal files such as plugins or config will remain untouched).</p>
+<p>Do the community a favor: stay safe, wash your hands, tweet this post and let friends know about this update!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.7.4]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2019/09/yourls-1-7-4</id>
+        <link href="https://yourls.org/zh-Hans/blog/2019/09/yourls-1-7-4"/>
+        <updated>2019-09-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We've just released a security patch for YOURLS, so everyone is advised to update when possible.]]></summary>
+        <content type="html"><![CDATA[<p>We've just <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.4" target="_blank" rel="noopener noreferrer" class="">released</a> a security patch for YOURLS, so everyone is advised to update when possible.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What’s new?<a href="https://yourls.org/zh-Hans/blog/2019/09/yourls-1-7-4#whats-new" class="hash-link" aria-label="Direct link to What’s new?" title="Direct link to What’s new?" translate="no">​</a></h2>
+<p>We've hardened security. All prior versions of YOURLS, up to 1.7.3, can be abused in a way that allows a script kiddy malicious user to use your API by forging a valid timestamp, and add unwanted links to your shortener.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2019/09/yourls-1-7-4#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>Same and as painless as usual: download the archive and overwrite all existing files. While you’re at it, backup your database, and tell your friends and family to update too!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.7.3]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2019/01/yourls-1-7-3</id>
+        <link href="https://yourls.org/zh-Hans/blog/2019/01/yourls-1-7-3"/>
+        <updated>2019-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello world, and happy new year everyone!]]></summary>
+        <content type="html"><![CDATA[<p>Hello world, and happy new year everyone!</p>
+<p>This year 2019 starts with a maintenance release of YOURLS, bumping its version to <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.3" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.7.3</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2019/01/yourls-1-7-3#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Mostly lil bug fixes and small enhancements here and there, nothing breath taking, but we thought it might be a good idea to push a release that would reflect changes committed this past months, mostly for folks who install "stable" releases, either manually or using third party tools.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2019/01/yourls-1-7-3#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>Same as usual, download the archive and overwrite all existing files. While you’re at it, backup your database because this is one of your new year resolutions, and tell your friends and family to update too!</p>
+<p>Love and short links to all!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.7.2]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2017/05/yourls-1-7-2</id>
+        <link href="https://yourls.org/zh-Hans/blog/2017/05/yourls-1-7-2"/>
+        <updated>2017-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello World! I've had some free time recently to devote to your favorite URL shortener, and as a result the latest is now YOURLS 1.7.2. Update now and be sure your friends update too!]]></summary>
+        <content type="html"><![CDATA[<p>Hello World! I've had some free time recently to devote to your favorite URL shortener, and as a result the latest is now <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.2" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.7.2</a>. Update now and be sure your friends update too!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2017/05/yourls-1-7-2#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>This is a bugfix lil' release and you will probably won't notice much if you don't inspect under the hood. For those interested of course the <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.2" target="_blank" rel="noopener noreferrer" class="">changelog</a> keeps track of everything that has been improved, added or fixed.</p>
+<p>The only real "major" news is that PHP 5.2 support is officially dropped. To be honest it's been unofficially supported for quite some time now, and if you still happen to run PHP 5.2 and YOURLS works on it, cool for you, but it should be definitely broken on your side from now on. For the record, as of today less than 2.9% of all YOURLS installs still run on 5.2, while 22% are on 5.3, 28% on 5.4, 20% on 5.5, 20% on 5.6 -- as you can see this is pretty even -- and just above 5% of you folks running PHP 7+. Yes, in case you were unaware, <a href="https://github.com/YOURLS/YOURLS/actions" target="_blank" rel="noopener noreferrer" class="">YOURLS is running fine on PHP 7+</a>.</p>
+<p><img decoding="async" loading="lazy" alt="PHP Usage Chart" src="https://yourls.org/zh-Hans/assets/images/Chart-3cabcf9952cff4f107d0c282ffe3d21e.png" width="600" height="371" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2017/05/yourls-1-7-2#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>Same business as usual. Simply download the archive and overwrite all existing files. While you're at it, why don't you backup your database data? I'm sure it's been a while already since last time 🙂</p>
+<p>Update and tell your friends and family to update too!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.7.1]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2015/12/yourls-1-7-1</id>
+        <link href="https://yourls.org/zh-Hans/blog/2015/12/yourls-1-7-1"/>
+        <updated>2015-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello world! Your favorite URL shortener just got some love and the latest is now YOURLS 1.7.1. Update and let your friends know!]]></summary>
+        <content type="html"><![CDATA[<p>Hello world! Your favorite URL shortener just got some love and the latest is now <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.1" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.7.1</a>. Update and let your friends know!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new?<a href="https://yourls.org/zh-Hans/blog/2015/12/yourls-1-7-1#whats-new" class="hash-link" aria-label="Direct link to What's new?" title="Direct link to What's new?" translate="no">​</a></h2>
+<p>Lots of bug fixes, lots of improvements, nothing that will rock your socks in awe, but several things you won't notice because they just work better 🙂 See the <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7.1" target="_blank" rel="noopener noreferrer" class="">changelog</a> for more details.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-update">How to update?<a href="https://yourls.org/zh-Hans/blog/2015/12/yourls-1-7-1#how-to-update" class="hash-link" aria-label="Direct link to How to update?" title="Direct link to How to update?" translate="no">​</a></h2>
+<p>If updating through the command line is too hardcore for you, just download the archive and overwrite your existing install. This update doesn't contain anything scary, but of course that's no reason not to have a proper backup of your data from time to time, right? 🙂</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's next?<a href="https://yourls.org/zh-Hans/blog/2015/12/yourls-1-7-1#whats-next" class="hash-link" aria-label="Direct link to What's next?" title="Direct link to What's next?" translate="no">​</a></h2>
+<p>We'll continue our slow trip down the <a href="https://github.com/orgs/YOURLS/projects" target="_blank" rel="noopener noreferrer" class="">road map</a> but the most noticeable change for a few of you will be that we are going to start breaking things!</p>
+<ul>
+<li class="">we're dropping PHP 5.2 support. As of today <strong>3.8%</strong> of all YOURLS installs run this super deprecated PHP version: <a href="https://i.imgur.com/Nl0Fmpp.jpg" target="_blank" rel="noopener noreferrer" class="">folks, please</a>.</li>
+<li class="">We'll probably drop MySQL support as well. An overhaul of the DB stuff has been planned for long, MySQL is deprecated in newer PHP builds, so we'll very most likely switch to PDO. Sorry for the <strong>1.9%</strong> of you that don't have PDO installed on their server, but that is not something that's acceptable from a decent web host 🙂</li>
+</ul>
+<p>Update and tell your friends and family to update too!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On YOURLS 1.7 and api.yourls.org]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org</id>
+        <link href="https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org"/>
+        <updated>2014-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In case you missed it earlier: YOURLS 1.7 is out, and I've started a series of posts explaining why it's twice greater than the Great Wall of China.]]></summary>
+        <content type="html"><![CDATA[<p>In case you missed it earlier: <a href="https://github.com/YOURLS/YOURLS/releases" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.7</a> is out, and I've started a series of posts explaining why it's twice greater than the Great Wall of China.</p>
+<p>Previous posts explained how protecting against SQL injections is cool, and how better HTTP requests are neat. Today, let's discuss how awesome it is to chit chat with <code>https://api.yourls.org</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="update-dude">"Update, dude"<a href="https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org#update-dude" class="hash-link" aria-label="Direct link to &quot;Update, dude&quot;" title="Direct link to &quot;Update, dude&quot;" translate="no">​</a></h2>
+<p>One image is better than 1000 words, they say, so here's one image:</p>
+<p><img decoding="async" loading="lazy" alt="Update, dude!" src="https://yourls.org/zh-Hans/assets/images/update-notice-c5f4a3c5620e5b8ee1c50f50c33d702d.png" width="629" height="144" class="img_ev3q"></p>
+<p>This is what you'll see now when there's a new version of YOURLS and you're missing the party. That, my dear estimated YOURLS user and fan, is awesome. Since we're now sure you won't be missing the next update, we'll be much less reluctant to push a X.Y.1 release when we've fixed a tiny annoying bug.</p>
+<p>Your own YOURLS setup will be now chatting with the mothership (aka <code>api.yourls.org</code>) when it gets bored, and telling you about a new version as soon as it is available is only the visible part of the feature.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="yourls-phone-home">YOURLS phone home<a href="https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org#yourls-phone-home" class="hash-link" aria-label="Direct link to YOURLS phone home" title="Direct link to YOURLS phone home" translate="no">​</a></h2>
+<p>Just like <a href="https://www.youtube.com/watch?v=iyFijjikkeM" target="_blank" rel="noopener noreferrer" title="Man, this movie is 30 YEAR OLD, none of your readers has seen it!" class="">E.T.</a>, YOURLS will now phone home. What does that mean exactly?</p>
+<p>It means that your YOURLS setup will, along with checking once in a while if there's a new version, send a few stats to the mothership to help us understand how you have installed YOURLS and how we can improve things in the future. These stats will provide us <strong>tremendously useful</strong> insights and facts, and I'm not overstating this.</p>
+<p>At the moment, several stats are collected, and this number will most likely decrease with every new version. Only a few hundred installs have checked in, and things will widely change as many more install YOURLS, but here are the current trends:</p>
+<ul>
+<li class="">Less than 9% of you are running <strong>PHP 5.2</strong>. This is very good news, because we want to drop PHP 5.2 support as soon as possible, and a huge surprise when compared to the <a href="https://w3techs.com/technologies/details/pl-php/5/all" target="_blank" rel="noopener noreferrer" class="">whole internet</a> or to what <a href="https://wordpress.org/about/stats/" target="_blank" rel="noopener noreferrer" class="">WordPress users</a> are running (I'm expecting this share to go way up as more update their install, though)</li>
+<li class="">96% have <strong>MySQLi</strong> installed, 95% have <strong>PDO</strong>. I'm very surprised and I'm not sure what to think, since I was expecting no less than 100% here.</li>
+<li class="">Two thirds of you don't use any <strong>plugin</strong>. It <em>might</em> be an indication that YOURLS could be streamlined and go on a quick diet to move a few core features into <a href="https://yourls.org/pluginlist" target="_blank" rel="noopener noreferrer" class="">YOURLS plugins</a>. Or maybe it just means that 66% of you just find it perfect as it is.</li>
+<li class="">90% use the default English <strong>locale</strong>. I think this shows we're not promoting enough the existence of <a href="https://yourls.org/translations" target="_blank" rel="noopener noreferrer" class="">translations for YOURLS</a>, in your language. Si. Da. Oui.</li>
+<li class="">The average <strong>domain length</strong> running YOURLS is 11.8 characters, shortest being 5 (xx dot xx), longest being 55 and a proof that some of you are running YOURLS with completely unexpected use case (I mean, I would have imagined the whole point of running a URL <em>shortener</em> would be to run it off something already <em>short</em>, right?)</li>
+<li class="">51% of you have more than 1 user defined, so they're obviously a need for <strong>user management</strong>, and this will help us eventually prioritize that feature</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="future-stuff-from-the-mothership">Future stuff from the mothership<a href="https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org#future-stuff-from-the-mothership" class="hash-link" aria-label="Direct link to Future stuff from the mothership" title="Direct link to Future stuff from the mothership" translate="no">​</a></h2>
+<p>At the moment, <a href="https://api.yourls.org/core/version/1.0/" target="_blank" rel="noopener noreferrer" class="">checking for a new version</a> is the main job of the API server. There are a few <a href="https://api.yourls.org/doc" target="_blank" rel="noopener noreferrer" class="">other API available</a>, and the list will grow with more services, the obvious one being to check for plugin updates.</p>
+<p>Feel free to use these API in your scripts and apps, and if you have any question about usage or any issue with using it, <a href="https://github.com/YOURLS/api.yourls.org" target="_blank" rel="noopener noreferrer" class="">open an issue here</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="thank-you-for-your-cooperation-">Thank you for your cooperation !<a href="https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org#thank-you-for-your-cooperation-" class="hash-link" aria-label="Direct link to Thank you for your cooperation !" title="Direct link to Thank you for your cooperation !" translate="no">​</a></h2>
+<p>From now on, an easy way to contribute to YOURLS is to simply run YOURLS, since, doing so, you're sending these stats that will help us make good design decisions in the future.</p>
+<p>I can't express it enough: this will be tremendously useful for us.</p>
+<p>Nothing sensitive is sent (no login, no password, no cookie key) and, of course, everything collected shall be made public, for everyone's benefit. Once we have enough stats to make numbers a bit more reliable (a couple thousands I'd say), we'll figure a way to share them, probably on <a href="https://yourls.org/" target="_blank" rel="noopener noreferrer" class="">yourls.org</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="but-you-know-privacy">But, you know, privacy!?<a href="https://yourls.org/zh-Hans/blog/2014/01/on-yourls-1-7-and-api-yourls-org#but-you-know-privacy" class="hash-link" aria-label="Direct link to But, you know, privacy!?" title="Direct link to But, you know, privacy!?" translate="no">​</a></h2>
+<p>No sweat, we got you covered.</p>
+<p>We know some of you just don't like to report anything about their install, because they're working on a super top secret project, or because they're high profile military spies, or because they're just folks with no other valid reason that they want to do it.</p>
+<p>If you want your YOURLS install to skip phoning home, just add the following line at the end of your <code>config.php</code>:</p>
+<p><code>define( 'YOURLS_NO_VERSION_CHECK', true );</code></p>
+<p>No more checking for new version, no more sending super secret stats. Please do this only if you believe you have a reason to do this, as we'd rather have your stats in: the more we get, the more we can make out of it.</p>
+<p>That's it for today's highlight! Next time, next cool feature: username encryption!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.7 "Tom Araya"]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2014/01/yourls-1-7-tom-araya-released</id>
+        <link href="https://yourls.org/zh-Hans/blog/2014/01/yourls-1-7-tom-araya-released"/>
+        <updated>2014-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm pleased to announce the release of YOURLS 1.7 "Tom Araya".]]></summary>
+        <content type="html"><![CDATA[<p>I'm pleased to announce the release of <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7" target="_blank" rel="noopener noreferrer" title="We have the best release names." class="">YOURLS 1.7 "Tom Araya"</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="m-tom-araya-m">\m/ Tom Araya \m/<a href="https://yourls.org/zh-Hans/blog/2014/01/yourls-1-7-tom-araya-released#m-tom-araya-m" class="hash-link" aria-label="Direct link to \m/ Tom Araya \m/" title="Direct link to \m/ Tom Araya \m/" translate="no">​</a></h2>
+<p>In our now centennial tradition of naming YOURLS releases after a metal vocalist, I'm dedicating this release to Tom Araya, from the most excellent badass old-school thrash band we all love, Slayer. Well, <em>vocalist</em>, or maybe <em>screamist</em>, you be the judges 🙂 Before you continue reading, feel free to crank up some good ol' <a href="https://www.youtube.com/watch?v=z_PcXKk0adI" target="_blank" rel="noopener noreferrer" class="">relaxing tune</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="update-now-seriously-nowupdate-your_table-with-crap">Update now. Seriously, now\';UPDATE `your_table` WITH `crap`<a href="https://yourls.org/zh-Hans/blog/2014/01/yourls-1-7-tom-araya-released#update-now-seriously-nowupdate-your_table-with-crap" class="hash-link" aria-label="Direct link to Update now. Seriously, now\';UPDATE `your_table` WITH `crap`" title="Direct link to Update now. Seriously, now\';UPDATE `your_table` WITH `crap`" translate="no">​</a></h2>
+<p>YOURLS 1.7 brings several exciting new features, and I will cover major ones in an upcoming series of short blog posts. If you're of the TL;DR type, check the <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.7" target="_blank" rel="noopener noreferrer" class="">changelog</a>.</p>
+<p>The first feature I want to highlight is not even a feature, it's a bugfix: in YOURLS 1.7 we have scrutinized several aspects regarding security and we have fixed a <strong>potential SQL injection vulnerability</strong>.</p>
+<p>If you run YOURLS for your own and only use, update ASAP, but if you run a public URL shortener, update riiiiiiiiiiight nooooooooooooow (read that in Tom Araya's voice to get the feeling)</p>
+<p>This update is a <strong>simple drop-in replacement</strong>: download the latest archive, unzip and upload to your server, overwriting existing files. No update procedure, no DB upgrade.</p>
+<p>Update as soon as you can, and do your friends a favor: tell them a new version of YOURLS is out and they should update, tweet and retweet the good word.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="executive-summary">Executive summary<a href="https://yourls.org/zh-Hans/blog/2014/01/yourls-1-7-tom-araya-released#executive-summary" class="hash-link" aria-label="Direct link to Executive summary" title="Direct link to Executive summary" translate="no">​</a></h2>
+<p>Update <strong>now</strong>. Blog posts about awesome features in the next days.</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.6 "Till Lindemann"]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2013/04/yourls-1-6-till-lindemann-released</id>
+        <link href="https://yourls.org/zh-Hans/blog/2013/04/yourls-1-6-till-lindemann-released"/>
+        <updated>2013-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm thrilled to announce the release of YOURLS 1.6 "Till Lindemann".]]></summary>
+        <content type="html"><![CDATA[<p>I'm thrilled to announce the release of <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.6" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.6 "Till Lindemann"</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="m-rammstein-m">\m/ Rammstein \m/<a href="https://yourls.org/zh-Hans/blog/2013/04/yourls-1-6-till-lindemann-released#m-rammstein-m" class="hash-link" aria-label="Direct link to \m/ Rammstein \m/" title="Direct link to \m/ Rammstein \m/" translate="no">​</a></h2>
+<p>YOURLS released are named after a (metal) music celebrity I like and I thought a non English singer would particularly suit the main feature of this release. If you're not familiar yet, please meet <a href="https://en.wikipedia.org/wiki/Till_Lindemann" target="_blank" rel="noopener noreferrer" class="">Till Lindemann</a>, charismatic leader and vocalist of the awesome <a href="https://www.youtube.com/watch?v=f4K6ZxDwi34" target="_blank" rel="noopener noreferrer" class="">Rammstein</a> 🙂</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="مرحبا-العالم-hej-verden-你好世界-kumusta-mundo-ciao-mondo-hello-world">مرحبا العالم! Hej verden! 你好世界! Kumusta mundo! Ciao mondo! Hello world!<a href="https://yourls.org/zh-Hans/blog/2013/04/yourls-1-6-till-lindemann-released#%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-hej-verden-%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C-kumusta-mundo-ciao-mondo-hello-world" class="hash-link" aria-label="Direct link to مرحبا العالم! Hej verden! 你好世界! Kumusta mundo! Ciao mondo! Hello world!" title="Direct link to مرحبا العالم! Hej verden! 你好世界! Kumusta mundo! Ciao mondo! Hello world!" translate="no">​</a></h2>
+<p>The main feature of YOURLS 1.6 is that it's now fully translatable. Yes! Si! Oui! You can now install and use YOURLS in the language of your choice! When the language of your choice is available, that is 🙂 As of writing there are <a href="https://docs.yourls.org/guide/extend/languages.html" target="_blank" rel="noopener noreferrer" class="">6 languages</a> but that list will grow as translators will raise their hand.</p>
+<p>If you want to translate YOURLS in your dialect: this is easy. Refer to the wiki page <a href="https://docs.yourls.org/guide/extend/languages.html" target="_blank" rel="noopener noreferrer" class="">YOURLS in your language</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="lots-of-cool-stuff">Lots of cool stuff!<a href="https://yourls.org/zh-Hans/blog/2013/04/yourls-1-6-till-lindemann-released#lots-of-cool-stuff" class="hash-link" aria-label="Direct link to Lots of cool stuff!" title="Direct link to Lots of cool stuff!" translate="no">​</a></h2>
+<p>On top of speaking Polish and soon Mandarin, YOURLS 1.6 brings other cool <strong>features</strong>: the usual bugfix load, security improvements, the ability to define <a href="https://github.com/YOURLS/API-action" target="_blank" rel="noopener noreferrer" class="">custom API actions</a> and to shorten URLs with other common protocols than just http, like <a href="https://yourls.org/email" target="_blank" rel="noopener noreferrer" class="">this one</a>. By the way, if you are running a public YOURLS install, you will want to read this: on <a href="https://docs.yourls.org/guide/advanced/public-shortening.html" target="_blank" rel="noopener noreferrer" class="">Public Shortening</a>.</p>
+<p>Another new thing you may have noticed is that YOURLS <strong>development</strong> now happens <a href="https://github.com/YOURLS/YOURLS/" target="_blank" rel="noopener noreferrer" class="">on GitHub</a>. Long story short: I want to learn Git on a real scale project, I dig Git's branching, and I'm curious to see if that will bring more contributions.</p>
+<p>And speaking of which... I'm excited to announce that the YOURLS team is finally... a <strong>team</strong>! Let me introduce <a href="https://github.com/LeoColomb" target="_blank" rel="noopener noreferrer" class="">Léo</a>, who has come up with nice patches, cool suggestions and fantastic ideas. With the help of Léo as a core committer, expect the development pace to raise from... real slow? to, err... somehow faster! 🙂</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="update-now">Update now!<a href="https://yourls.org/zh-Hans/blog/2013/04/yourls-1-6-till-lindemann-released#update-now" class="hash-link" aria-label="Direct link to Update now!" title="Direct link to Update now!" translate="no">​</a></h2>
+<p>Don't wait a minute: get <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.6" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.6</a> and update: delete all your files except your <code>config.php</code> and your <code>/user</code> directory -- or simply overwrite, and you're good to go!</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Workshop: How to create your own translation file for YOURLS]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls</id>
+        <link href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls"/>
+        <updated>2013-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Since version 1.6 YOURLS is fully "localizable", ie translatable, and the translation process itself is very simple. We're going to create a translation file, but first, a very little theory.]]></summary>
+        <content type="html"><![CDATA[<p>Since version 1.6 YOURLS is fully "localizable", ie translatable, and the translation process itself is very simple. We're going to create a translation file, but first, a very little theory.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-locale-">A… "locale" ?<a href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls#a-locale-" class="hash-link" aria-label="Direct link to A… &quot;locale&quot; ?" title="Direct link to A… &quot;locale&quot; ?" translate="no">​</a></h2>
+<p>The default language of YOURLS is U.S. English (or, to be accurate and fair, it's "Ozh English" : it's not my mother tongue so a few sentences may be sometimes a bit <em>le suck</em> ; if so please correct me :)</p>
+<p>In nerd speak, that language is called a "locale" : a combination of language (English) and regional dialect (US, you know, <em>colors</em> and <em>colours</em>). Hence, the default locale of YOURLS is <strong>en_US</strong>.</p>
+<p>YOURLS uses translation files that contain the strings in English and in their translated form. There are 2 files: a <strong>PO</strong> file, which is human readable, and a <strong>MO</strong> file, which needs to be generated by a script or software.</p>
+<p>In this example, I'll show you how to generate a translation for France's French (ie <code>fr_FR</code>) using <a href="https://poedit.net/" target="_blank" rel="noopener noreferrer" class="">Poedit</a>, a simple PO file editor, but everything will be very similar using another desktop tool or web based tool such a <a href="https://localise.biz/free/poeditor" target="_blank" rel="noopener noreferrer" class="">Loco</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="generate-your-translation-file">Generate your translation file<a href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls#generate-your-translation-file" class="hash-link" aria-label="Direct link to Generate your translation file" title="Direct link to Generate your translation file" translate="no">​</a></h2>
+<ol>
+<li class="">
+<p>Install <a href="https://poedit.net/" target="_blank" rel="noopener noreferrer" class="">Poedit</a>. Small download, simple install, no configuration, cross platform, free.</p>
+</li>
+<li class="">
+<p>Download the <a href="https://github.com/YOURLS/YOURLS.pot" target="_blank" rel="noopener noreferrer" class="">YOURLS.pot</a> template file, rename it to <code>fr_FR.po</code></p>
+</li>
+<li class="">
+<p>Open your <code>fr_FR.po</code> with Poedit</p>
+</li>
+<li class="">
+<p>Optional : fill in some translation details. To do so: click Catalogue / Properties. Leave other fields untouched, you don't need them.</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/1-5df79c1dc1e46963c168628125a02dbf.jpg" width="580" height="462" class="img_ev3q"></p>
+</li>
+<li class="">
+<p>Start translating. It's really just about entering translated text in the <strong>Translation</strong> field. Be sure to copy any HTML tag, punctuation or seemingly cryptic bits such as <code>%s</code> that will be replaced within YOURLS by non translatable text (a URL for instance).</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/2-80e6b4c14690b2665349707a4e449baa.jpg" width="750" height="454" class="img_ev3q"></p>
+</li>
+<li class="">
+<p>Once you're done, save your work: Poedit will save your modified<code> fr_FR.po</code> file, which is the human readable translation file, and will generate a <code>fr_FR.mo</code> file, a machine readable file and what YOURLS need to translate strings.</p>
+</li>
+</ol>
+<p>YOURLS 1.6 contains about 270 translatable strings. Some are very short (one or a couple of words), some a longer sentences, but overall the process isn't too long or cumbersome. As an example, creating the complete French translation, fine tuning it (and fixing a couple YOURLS bugs by the way) then creating a <a href="https://github.com/ozh/YOURLS-fr_FR" target="_blank" rel="noopener noreferrer" class="">repository to host the files</a> took me roughly 75 minutes.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="check-and-fine-tune-your-translation-file">Check and fine tune your translation file<a href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls#check-and-fine-tune-your-translation-file" class="hash-link" aria-label="Direct link to Check and fine tune your translation file" title="Direct link to Check and fine tune your translation file" translate="no">​</a></h2>
+<p>Test your file to check translations perfectly fit the context they are used in:</p>
+<ol>
+<li class="">in your <code>config.php</code>, add or edit the following:
+<code>define( 'YOURLS_LANG', 'fr_FR' );</code></li>
+<li class="">drop the two PO and MO files in <code>user/languages</code></li>
+<li class="">Play with YOURLS and check all pages and possible uses (shorten link, edit and delete stuff, etc.)</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="distribute-your-files">Distribute your files<a href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls#distribute-your-files" class="hash-link" aria-label="Direct link to Distribute your files" title="Direct link to Distribute your files" translate="no">​</a></h2>
+<p>Last step: make sure others can benefit from you hard work!</p>
+<ol>
+<li class="">
+<p>Upload your two PO and MO files somewhere on the interweb. I recommend using a source controlled service, such as <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="">GitHub</a>: this will make your changes easy to track, your files easy to maintain, and others' contributions easy to implement. If you don't want to use Git, a regular hosting (your blog) will be fine</p>
+</li>
+<li class="">
+<p>Ping us! Open a pull request on <a href="https://github.com/YOURLS/awesome-yourls" target="_blank" rel="noopener noreferrer" class="">https://github.com/YOURLS/awesome-yourls</a> and tell us where your translation lives (see <a href="https://github.com/YOURLS/awesome/pulls?q=is%3Apr+translation+" target="_blank" rel="noopener noreferrer" class="">examples</a>)</p>
+</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="protips-what-makes-a-good-translation-">Protips: what makes a good translation ?<a href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls#protips-what-makes-a-good-translation-" class="hash-link" aria-label="Direct link to Protips: what makes a good translation ?" title="Direct link to Protips: what makes a good translation ?" translate="no">​</a></h2>
+<p><strong>Be fluent</strong><br>
+To be a good translator, you need to be very comfortable with English and the language you'll translate to. Casual knowledge of one or both will result in a translation that will most likely sound awkward or unnatural to native speakers. In other words: <a href="https://www.youtube.com/watch?v=HbvYeLxMKN8" target="_blank" rel="noopener noreferrer" class="">this</a>.</p>
+<p><strong>Don't translate literally</strong>
+Maybe the English sentence will have a 2 part structure that won't sound natural in your language, maybe a longer sentence or 3 smaller sentences will sound better. Adapt, refine, make it sound natural.</p>
+<p><strong>Keep the same tone</strong><br>
+Some messages are very formal (eg "URL invalid" as an operation result) and some are less formal. Keep the same level of formality or informality, as it depends on the context in which string will be used.</p>
+<p><strong>Don't over translate</strong><br>
+Some English words have become common enough that it may sound weird to translate them. For instance, it's up to you to determine if "<strong>plugin</strong>" or "<strong>bookmarklet</strong>" have to be translated or if those words are better as is.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bonus-protips-using-poedit">Bonus: Protips using Poedit<a href="https://yourls.org/zh-Hans/blog/2013/02/workshop-how-to-create-your-own-translation-file-for-yourls#bonus-protips-using-poedit" class="hash-link" aria-label="Direct link to Bonus: Protips using Poedit" title="Direct link to Bonus: Protips using Poedit" translate="no">​</a></h2>
+<p>Hitting <code>Control + Enter</code> or <code>Control + Down arrow</code> will navigate to the next untranslated string. Hitting <code>Control B</code> will copy the source (untranslated) text to the Translation box, which can be handy if you have a few HTML tags to re-use.</p>
+<p>Sometimes the <strong>Translation</strong> field will show a split field: it means you need to enter the singular and plural form of a sentence.</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/3-31b5a3cab886fd19c8bd7beae1ae04b4.jpg" width="368" height="162" class="img_ev3q"></p>
+<p>Sometimes you will also get a few hints in the <strong>Notes for translators</strong> area: these comments will help you understand the context of a string and help you pick the best translation.</p>
+<p><img decoding="async" loading="lazy" src="https://yourls.org/zh-Hans/assets/images/4-ff493b821d8ab4ec5a45be58c46a1ddb.jpg" width="738" height="150" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="tutorial" term="tutorial"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YOURLS 1.5.1]]></title>
+        <id>https://yourls.org/zh-Hans/blog/2012/08/yourls-1-5-1-released</id>
+        <link href="https://yourls.org/zh-Hans/blog/2012/08/yourls-1-5-1-released"/>
+        <updated>2012-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm happy to announce that YOURLS 1.5.1 is available and waiting for you. Get it quick, the first 1,000 installs get 20% off the regular price!]]></summary>
+        <content type="html"><![CDATA[<p>I'm happy to announce that <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.5.1" target="_blank" rel="noopener noreferrer" class="">YOURLS 1.5.1</a> is available and waiting for you. Get it quick, the first 1,000 installs get 20% off the regular price!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new<a href="https://yourls.org/zh-Hans/blog/2012/08/yourls-1-5-1-released#whats-new" class="hash-link" aria-label="Direct link to What's new" title="Direct link to What's new" translate="no">​</a></h2>
+<p>YOURLS 1.5.1 is a "minor" release, as in "there are no really new important features but lots of improvements and bug fixes". Some very cool stuff nonetheless, which are:</p>
+<ul>
+<li class="">You can now encrypt your passwords in the config file instead of storing them in clear text. See <a href="https://docs.yourls.org/guide/essentials/credentials.html" target="_blank" rel="noopener noreferrer" class="">Using encrypted salted passwords</a></li>
+<li class="">YOURLS stat pages now uses the new <a href="https://developers.google.com/chart/" target="_blank" rel="noopener noreferrer" class="">Google Visualization API</a>. See <a href="https://yourls.org/cookie+" target="_blank" rel="noopener noreferrer" class="">that page</a> for example.</li>
+<li class="">Stat pages are much more intelligently generated, SQL wise. That alone makes it worth upgrading</li>
+<li class="">The API is now JSONP compliant, for all you Javascript nerds</li>
+<li class="">Drop a favicon in the <code>/user</code> directory and YOURLS'll use it</li>
+</ul>
+<p>You can check a slightly more detailed <a href="https://github.com/YOURLS/YOURLS/releases/tag/1.5.1" target="_blank" rel="noopener noreferrer" class="">changelog.txt</a> and, if you're really wanting to keep an eye on development, follow <a href="https://twitter.com/YOURLS" target="_blank" rel="noopener noreferrer" class="">@YOURLS</a> (for more general news about YOURLS, and other stuff, you'll want to follow <a href="https://twitter.com/ozh" target="_blank" rel="noopener noreferrer" class="">Ozh</a> instead -- much more entertaining 🙂</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="15-second-updating">15 second updating<a href="https://yourls.org/zh-Hans/blog/2012/08/yourls-1-5-1-released#15-second-updating" class="hash-link" aria-label="Direct link to 15 second updating" title="Direct link to 15 second updating" translate="no">​</a></h2>
+<p>That'll be a quick update: just upload the new archive to overwrite all your files, and that's it. No scary update page to remind you that everything should go fine but you should backup everything just in case. Note that I'm not saying that you shouldn't backup regularly anyway 🙂</p>
+<p>Oh, and while you're downloading the latest archive, spend a second or two on <a href="https://yourls.org/" target="_blank" rel="noopener noreferrer" class="">yourls.org</a> and give that "social" icons the spanking they deserve! The <a href="https://yourls.org/#More" target="_blank" rel="noopener noreferrer" class="">Showcase section</a> has been recently updated and, man, there are quite a few cool things around made with or for YOURLS!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-next">What's next<a href="https://yourls.org/zh-Hans/blog/2012/08/yourls-1-5-1-released#whats-next" class="hash-link" aria-label="Direct link to What's next" title="Direct link to What's next" translate="no">​</a></h2>
+<p>I shall now start to make up my mind about the next database schema for 1.6 and work on the next iteration. This will imply lots of DB changes and I'm truly scared because this is my sucky area 🙂</p>
+<p>I'm also currently pondering over moving the project on GitHub or not, see previous blog post on that subject.</p>
+<p>OK, those last two paragraphs make me sound like I just can't make any quick decision, but, Ma, I swear this isn't what it looks like! 🙂</p>
+<p>Now be a good boy and tell a friend to update while you're updating, will you?</p>]]></content>
+        <author>
+            <name>Ozh Richard</name>
+            <uri>https://github.com/ozh</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+</feed>
